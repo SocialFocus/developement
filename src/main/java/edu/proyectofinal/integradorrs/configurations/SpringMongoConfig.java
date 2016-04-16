@@ -7,7 +7,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.mongodb.config.AbstractMongoConfiguration;
 
 @Configuration
-
 public class SpringMongoConfig extends AbstractMongoConfiguration {
 
     @Override
@@ -20,3 +19,4 @@ public class SpringMongoConfig extends AbstractMongoConfiguration {
         return "test";
     }
 }
+
