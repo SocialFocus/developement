@@ -1,2 +1,1 @@
-# MSV Template proyect final
-# author: Mariano Di Maggio
+# MSV Template para los microservicios de proyecto final
