@@ -17,7 +17,6 @@ public class Application {
 
     @RequestMapping("/echo")
     public String echo(@RequestParam String comm){
-        System.out.println(System.getenv(comm));
         return "ping";
     }
 }

@@ -16,3 +16,4 @@ endpoints:
     enabled: true
   shutdown:
     enabled: true
+    

@@ -19,7 +19,7 @@ import java.util.Collection;
 public class TransactionController extends AbstractController<Transaction>{
 
     @Autowired
-    @Qualifier("TransactionServiceMongo")
+    @Qualifier("transactionServiceCouchbase")
     private TransactionService transactionService;
 
     @RequestMapping(method = RequestMethod.GET)
